@@ -199,7 +199,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("assests/IMG-20230127-WA0000__1_-removebg.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
