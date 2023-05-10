@@ -476,22 +476,24 @@ footer .social-icons li {
 }
 
 footer .social-icons li a {
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    line-height: 80px;
-    text-align: center;
+   display: inline-block;
+    background: crimson;
     color: #fff;
-    font-size: 24px;
-    background-color: #364a59;
-    transition: all 0.5s;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
     gap: 20px;
 }
 
 footer .social-icons li a:hover {
-    background-color: #ffe165;
-    color: #1f3646;
+        background-color: crimson;
+    background: none;
 }
+   
 
 
 /* teams section styling */
@@ -691,7 +693,7 @@ footer .social-icons li a:hover {
 
 footer {
     background: #112749;
-    padding: 15px 23px;
+    padding: 15px 10px;
     color: #fff;
     text-align: center;
 }
