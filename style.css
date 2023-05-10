@@ -200,7 +200,7 @@ section .title::after {
 .home {
     display: flex;
     background: url("assests/IMG-20230127-WA0000__1_-removebg.png") no-repeat center;
-    height: 100vh; 
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -446,7 +446,7 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+    width: 80%;
 }
 
 .skills-content .right .js::before {
@@ -475,7 +475,7 @@ footer .social-icons li {
 }
 
 footer .social-icons li a {
-  display: inline-block;
+    display: inline-block;
     background: #222;
     color: #fff;
     font-size: 25px;
@@ -489,11 +489,10 @@ footer .social-icons li a {
 }
 
 footer .social-icons li a:hover {
-       color: #fff;
+    color: #fff;
     background: crimson;
     transform: scale(1.20);
 }
-   
 
 
 /* teams section styling */
@@ -692,7 +691,7 @@ footer .social-icons li a:hover {
 /* footer section styling */
 
 footer {
-   background: black;
+    background: black;
     padding: 5px 10px;
     color: #fff;
     text-align: center;
@@ -839,7 +838,7 @@ footer span a:hover {
     }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 991px) {
     footer ul li {
         margin-bottom: 10px!important;
     }
