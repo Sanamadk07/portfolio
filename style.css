@@ -466,7 +466,6 @@ section .title::after {
 
 footer {
     text-align: center;
-    background-color: #1f3646;
     padding: 60px 40px;
 }
 
@@ -476,22 +475,23 @@ footer .social-icons li {
 }
 
 footer .social-icons li a {
-   display: inline-block;
-    background: crimson;
+  display: inline-block;
+    background: #222;
     color: #fff;
     font-size: 25px;
-    padding: 12px 36px;
+    padding: 12px 20px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid none;
     transition: all 0.3s ease;
-    gap: 20px;
+    gap: 40px;
 }
 
 footer .social-icons li a:hover {
-        background-color: crimson;
-    background: none;
+       color: #fff;
+    background: crimson;
+    transform: scale(1.20);
 }
    
 
@@ -692,8 +692,8 @@ footer .social-icons li a:hover {
 /* footer section styling */
 
 footer {
-    background: #112749;
-    padding: 15px 10px;
+   background: black;
+    padding: 5px 10px;
     color: #fff;
     text-align: center;
 }
@@ -704,6 +704,8 @@ footer span a {
 }
 
 footer span a:hover {
+    color: crimson;
+    background-color: blue;
     text-decoration: underline;
 }
 
