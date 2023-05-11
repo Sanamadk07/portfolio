@@ -148,10 +148,11 @@ section .title::after {
 
 .navbar .menu li a:hover {
     color: crimson;
+      transform: scale(1.20);
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: #222;
 }
 
 
