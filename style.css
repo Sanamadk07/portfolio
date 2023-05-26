@@ -382,6 +382,10 @@ section .title::after {
     width: calc(50% - 30px);
 }
 
+#more {
+    display: none;
+}
+
 .skills .skills-content .left .text {
     font-size: 20px;
     font-weight: 600;
@@ -392,7 +396,7 @@ section .title::after {
     text-align: justify;
 }
 
-.skills .skills-content .left a {
+.skills .skills-content .left button {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -405,7 +409,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.skills .skills-content .left a:hover {
+.skills .skills-content .left button:hover {
     color: crimson;
     background: none;
 }
