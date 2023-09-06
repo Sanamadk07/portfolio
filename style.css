@@ -201,6 +201,7 @@ section .title::after {
 .home {
     display: flex;
     background: url("assests/IMG-20230127-WA0000__1_-removebg.png") no-repeat center;
+    padding-right: 20%;
     height: 100vh;
     color: #fff;
     min-height: 500px;
