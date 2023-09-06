@@ -148,7 +148,8 @@ section .title::after {
 
 .navbar .menu li a:hover {
     color: crimson;
-      transform: scale(1.20);
+    transition-delay: 0.2s;
+    transform: matrix(1, 0, 0, 0, 0, 0)
 }
 
 .navbar.sticky .menu li a:hover {
@@ -239,7 +240,7 @@ section .title::after {
 
 .home .home-content .text-3 span {
     color: crimson;
-    font-weight: 500;
+    font-weight: 1000;
 }
 
 .home .home-content a {
@@ -672,23 +673,20 @@ footer .social-icons li a:hover {
     align-items: center;
 }
 
-.right form .button-area button {
+.right form .button-area a {
+    display: inline-block;
+    background: crimson;
     color: #fff;
-    display: block;
-    width: 160px!important;
-    height: 45px;
-    outline: none;
     font-size: 18px;
     font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
     border-radius: 6px;
-    cursor: pointer;
-    flex-wrap: nowrap;
-    background: crimson;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 
-.right form .button-area button:hover {
+.right form .button-area a:hover {
     color: crimson;
     background: none;
 }
