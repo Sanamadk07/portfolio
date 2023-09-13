@@ -201,12 +201,12 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("assests/IMG-20230127-WA0000__1_-removebg.png") no-repeat center;
+    background: url("assests/[removal.ai]_a810ee01-389d-42d9-b957-44adbc2d3357-img_20220721_084557_161.png") no-repeat center ;
     padding-right: 20%;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -275,7 +275,7 @@ section .title::after {
 .about .about-content .left img {
     height: 400px;
     width: 400px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 6px;
 }
 
