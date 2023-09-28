@@ -149,7 +149,6 @@ section .title::after {
 .navbar .menu li a:hover {
     color: crimson;
     transition-delay: 0.2s;
-    transform: matrix(1, 0, 0, 0, 0, 0)
 }
 
 .navbar.sticky .menu li a:hover {
