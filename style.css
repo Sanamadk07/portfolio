@@ -221,14 +221,14 @@ section .title::after {
 
 .home .home-content .text-1 {
     font-size: 27px;
-    color: chocolate;
+    color: #111;
 }
 
 .home .home-content .text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    color: #111;
+    color: chocolate;
 }
 
 .home .home-content .text-3 {
