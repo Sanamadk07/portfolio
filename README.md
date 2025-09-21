@@ -1,1 +1,1 @@
-sanamadhikari07.com.np
+sanamadk07.netlify.app
